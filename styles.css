@@ -1,0 +1,194 @@
+body {
+  font-family: 'Montserrat';
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat', sans-serif;
+  size: 3rem;
+  line-height: 1.5;
+  font-weight: 600;
+}
+
+/* Headings */
+.catchphrase {
+  /* digitize your drawings */
+  margin-top: 50px;
+  margin-bottom: 50px;
+  color: #f5f6f7;
+}
+
+/* Title Section */
+#title {
+  padding-bottom: 20px;
+  text-align: left;
+}
+
+.container-fluid {
+  padding: 3% 15%;
+  /*3% top bottom, 15% left and right*/
+}
+
+/* Sections */
+.colored-section {
+  background-color: #9763db;
+  color: #e3e5e8;
+}
+
+.white-section {
+  background-color: white;
+}
+
+/* Navbar */
+
+.navbar {
+  padding: 0;
+}
+
+/*changes navbar heading to white */
+.navbar-light .navbar-brand {
+  color: #f5f6f7;
+}
+
+.navbar-brand {
+  font-size: 3rem;
+}
+
+/*changes navbar heading links to off white */
+.navbar-light .navbar-nav .nav-link {
+  color: #e3e5e8;
+}
+
+.nav-item {
+  padding: 0 20px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+
+/* Flower image */
+.flower {
+  transform: rotate(20deg);
+  padding: 60px 40px;
+  margin-left: 60px;
+  width: 60%;
+  position: relative;
+  right: 15%;
+}
+
+.btn-dark {
+  margin-right: 15px;
+}
+
+/* camera glyph */
+.fas.fa-camera-retro {
+  font-size: 60px;
+  color: #394291;
+}
+
+.fas.fa-calculator {
+  font-size: 60px;
+  color: #394291;
+}
+
+.fas.fa-dollar-sign {
+  font-size: 60px;
+  color: #394291;
+}
+
+/*change color when hovering over glyphs, use . prior to the class */
+.hoverglyphsection:hover {
+  color: #9763db;
+}
+
+/* margin around middle features section */
+#features {
+  margin: 0px 0 80px 0;
+  padding-top: 80px;
+  position: relative;
+  z-index: 1;
+}
+
+/*add margin to feature boxes for responsive design*/
+.feature-box {
+  margin: 40px 0;
+}
+
+.features-glyph {
+  margin-top: 20px;
+}
+
+/* Testimonials */
+
+.testimonial-text {
+  font-size: 2rem;
+}
+
+.testimonial-image {
+  width: 30%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+/* applied to buttons can move outwards */
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+
+
+#press {
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* Pricing Section */
+
+#pricing {
+  padding: 100px;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+/* Second call to action section */
+
+#cta {
+  padding: 100px 100px 70px 100px;
+  font-weight: 900;
+}
+
+.cta-text {
+  line-height: 1.5;
+  padding-bottom: 40px;
+}
+
+.cta-button {
+  padding-bottom: 40px;
+}
+
+@media (max-width: 960px) {
+
+.flower {
+  position: static;
+  transform: rotate(0);
+}
+
+}
+/* Footer Section */
+
+.footer-glyph {
+  padding: 80px 20px 20px 20px;
+}
+
+.footer-text {
+  color: #c2b9b8;
+}
