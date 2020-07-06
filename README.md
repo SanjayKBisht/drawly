@@ -12,5 +12,5 @@ Please link HTML to CSS to get started
 
 ## Built With
 
--HTML
--CSS
+- HTML
+- CSS
